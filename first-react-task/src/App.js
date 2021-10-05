@@ -1,13 +1,10 @@
 import "./App.css";
 import Home from "./Components/Home";
-import ProductsList from "./Components/ProductsList"
-
+import ProductsList from "./Components/ProductsList";
 
 function App() {
-  
-
   return (
-    <div>
+    <div className="backGround">
       <Home />
       <hr />
       <ProductsList />

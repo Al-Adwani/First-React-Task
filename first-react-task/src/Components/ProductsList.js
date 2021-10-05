@@ -4,7 +4,7 @@ import Product from "./Product";
 
 function ProductsList() {
   const products = productsData.map((element) => <Product data={element} />);
-  return <div>{products}</div>;
+  return <div className="items">{products}</div>;
 }
 
 export default ProductsList;

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(160, 167, 165);
 }
 
 code {
@@ -14,15 +15,20 @@ code {
 .homeLayout {
   justify-content: center;
   display: flex;
-  font-size: 100px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  max-width: 100%;
-  color: rgb(241, 182, 72);
+  font-size: 120px;
+  font-family: "Brush Script MT", cursive;
+  color: rgb(0, 0, 0);
+  width: 100%;
   height: auto;
+  justify-content: space-evenly;
 }
 .items {
-  max-width: 10%;
-  flex-direction: row;
+  display: flex;
+  width: 100%;
   justify-content: center;
+  justify-content: space-around;
+}
+.imgStyle {
+  width: 220px;
+  border-radius: 50%;
 }

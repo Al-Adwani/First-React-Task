@@ -4,7 +4,7 @@ function Product(props) {
   const info = props.data;
   return (
     <div>
-      <img className="items" src={info.image} />
+      <img className = "imgStyle" src={info.image} />
       <h5>{info.name}</h5>
       <p>{info.price}</p>
     </div>
